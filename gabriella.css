@@ -1,0 +1,86 @@
+body {
+    background-color: #F2EBE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 650px;
+    height: 450px;
+    display: flex;  
+    box-sizing: border-box;
+}
+
+.container img {
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.text-wrap {
+    width: 50%;
+    background-color: #fff;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    margin: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.perfume {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    color: #79938a;
+}
+
+h1 {
+    width: 200px;
+}
+
+.flora {
+    color: #555f5b;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.price {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+
+h2 {
+    font-size: 29px;
+    font-weight: 800;
+    color: #3C8067;
+}
+del{
+    font-size: 17px;
+    color: #77817d;
+}
+
+button{
+    width: 90%;
+    background-color: #3C8067;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+}
